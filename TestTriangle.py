@@ -39,7 +39,7 @@ class TestTriangles(unittest.TestCase):
     def testInvalidInput(self): 
         self.assertEqual(classifyTriangle(0,1,0),'InvalidInput','0,1,0 should be InvalidInput')
 
-    def testInvalidInput(self): 
+    def testInvalidInput2(self): 
         self.assertEqual(classifyTriangle(201,1,5),'InvalidInput','201,1,5 should be InvalidInput')
 
 if __name__ == '__main__':
